@@ -32,8 +32,77 @@ header{
 .secao{
     display: grid;
     grid-template-columns: 50% 50%;
+    font-family: 'Inter', sans-serif;
 }
 
-.seca-imagem-1{
-    width: 1%;
+.secao-imagem-1{
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 75px;
+}
+
+.secao-parte-1{
+    background-color: #6990C8;
+    padding: 20px 50px;
+    color: #ffffff;
+}
+
+.secao-parte-2{
+    background-color: #F3F3F3;
+    padding: 20px 50px;
+}
+
+.secao-titulo-1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.secao-titulo-2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.secao-texto-1{
+    font-size: 16px;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+.secao-texto-2{
+    font-size: 16px;
+    padding-top: 75px;
+    text-align: justify;
+}
+
+.secao-texto-3{
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.secao-lista{
+    padding-left: 20px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.secao-imagem-2{
+    width: 20%;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+.rodape{
+    background-color: #001763;
+    color: #ffffff;
+    text-align: left;
+    padding: 24px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: underline;
+}
+
+.rodape-titulo{
+    font-size: 20px;
 }
